@@ -1,0 +1,89 @@
+/* Tic Tac Toe Game Styles */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #3498db, #2ecc71);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.status {
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    min-height: 1.5em;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 350px;
+    height: 300px;
+    margin-bottom: 2rem;
+}
+
+.cell {
+    background: rgba(236, 240, 241, 0.1);
+    border: 2px solid rgba(236, 240, 241, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.cell:hover {
+    background: rgba(236, 240, 241, 0.25);
+    transform: scale(1.05);
+}
+
+.cell.x {
+    color: #e74c3c;
+    text-shadow: 0 0 10px rgba(231, 76, 60, 0.5);
+}
+
+.cell.o {
+    color: #1abc9c;
+    text-shadow: 0 0 10px rgba(26, 188, 156, 0.5);
+}
+
+.restart {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    color: white;
+    background: linear-gradient(45deg, #e74c3c, #1abc9c);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.restart:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
