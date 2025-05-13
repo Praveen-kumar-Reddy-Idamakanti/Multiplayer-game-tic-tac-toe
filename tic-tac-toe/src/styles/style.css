@@ -87,3 +87,70 @@ h1 {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
+
+/* Authentication Styles */
+#auth-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#username, #roomId {
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid rgba(236, 240, 241, 0.3);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#username::placeholder, #roomId::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#username:focus, #roomId:focus {
+    outline: none;
+    border-color: rgba(236, 240, 241, 0.6);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#joinRoom, #createRoom {
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#createRoom {
+    background: linear-gradient(45deg, #2ecc71, #27ae60);
+}
+
+#joinRoom {
+    background: linear-gradient(45deg, #3498db, #2980b9);
+}
+
+#createRoom:hover, #joinRoom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.room-info {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}

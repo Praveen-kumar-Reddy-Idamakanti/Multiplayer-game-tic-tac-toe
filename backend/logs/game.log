@@ -1,0 +1,1320 @@
+[2025-05-13T12:12:16.851Z] INFO: Connected to SQLite database
+[2025-05-13T12:12:17.200Z] INFO: Client connected:
+{
+  "socketId": "ZTlemnRioUUpmLvVAAAB"
+}
+[2025-05-13T12:12:18.286Z] INFO: Client connected:
+{
+  "socketId": "2ys3YICATfDxjLwBAAAD"
+}
+[2025-05-13T12:12:18.487Z] INFO: Client connected:
+{
+  "socketId": "zZASRFZbK2cPi2gLAAAF"
+}
+[2025-05-13T12:12:19.318Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:12:19.320Z] INFO: Connected to SQLite database
+[2025-05-13T12:12:20.130Z] INFO: Client connected:
+{
+  "socketId": "LhNHUUqy_4l2eaNMAAAB"
+}
+[2025-05-13T12:12:20.324Z] INFO: Client connected:
+{
+  "socketId": "b0qCanqHbpmOfVZ8AAAD"
+}
+[2025-05-13T12:12:20.596Z] INFO: Client connected:
+{
+  "socketId": "CpVIfMwXSM0SGQa4AAAF"
+}
+[2025-05-13T12:12:22.599Z] INFO: Client connected:
+{
+  "socketId": "Pcqcbq0Jm34sfsP-AAAH"
+}
+[2025-05-13T12:12:42.936Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:12:42.940Z] INFO: Connected to SQLite database
+[2025-05-13T12:12:43.746Z] INFO: Client connected:
+{
+  "socketId": "PR-ego-IlTePVB7oAAAB"
+}
+[2025-05-13T12:12:44.107Z] INFO: Client connected:
+{
+  "socketId": "E022li31KJk1vw1BAAAD"
+}
+[2025-05-13T12:12:44.125Z] INFO: Client connected:
+{
+  "socketId": "31SYxRmJjxeO2q7UAAAF"
+}
+[2025-05-13T12:12:44.196Z] INFO: Client connected:
+{
+  "socketId": "1mB2QoiEbuoH24ERAAAH"
+}
+[2025-05-13T12:12:56.726Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:12:56.731Z] INFO: Connected to SQLite database
+[2025-05-13T12:12:57.539Z] INFO: Client connected:
+{
+  "socketId": "_9OHtMZU_hjx-OEdAAAD"
+}
+[2025-05-13T12:12:57.540Z] INFO: Client connected:
+{
+  "socketId": "MLolOrw7gNsiY3CwAAAE"
+}
+[2025-05-13T12:12:57.543Z] INFO: Client connected:
+{
+  "socketId": "x32tcB9ge0Xhofh8AAAF"
+}
+[2025-05-13T12:12:57.895Z] INFO: Client connected:
+{
+  "socketId": "sI577U9qLUeCIzphAAAH"
+}
+[2025-05-13T12:13:19.333Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:13:19.336Z] INFO: Connected to SQLite database
+[2025-05-13T12:13:20.145Z] INFO: Client connected:
+{
+  "socketId": "Hd9awxDuH8W--Hd4AAAD"
+}
+[2025-05-13T12:13:20.151Z] INFO: Client connected:
+{
+  "socketId": "uRx8XDCxFInEB7OgAAAE"
+}
+[2025-05-13T12:13:20.155Z] INFO: Client connected:
+{
+  "socketId": "-ix_KY15K3FJfj5GAAAF"
+}
+[2025-05-13T12:13:20.295Z] INFO: Client connected:
+{
+  "socketId": "mQ8o5y8qJOJS-6U0AAAH"
+}
+[2025-05-13T12:13:41.572Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:13:41.574Z] ERROR: Maintenance failed:
+{}
+[2025-05-13T12:13:41.576Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:13:41.577Z] INFO: Connected to SQLite database
+[2025-05-13T12:13:42.371Z] INFO: Client connected:
+{
+  "socketId": "lu5pQUv9aO3nnzrrAAAC"
+}
+[2025-05-13T12:13:42.373Z] INFO: Client connected:
+{
+  "socketId": "uPgK-jc9xrSpmSp1AAAD"
+}
+[2025-05-13T12:13:42.615Z] INFO: Client connected:
+{
+  "socketId": "_bhaBh8_BiWxHtlqAAAF"
+}
+[2025-05-13T12:13:42.830Z] INFO: Client connected:
+{
+  "socketId": "4QWRVccF5f2Lr6ejAAAH"
+}
+[2025-05-13T12:14:02.830Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:14:02.832Z] ERROR: Maintenance failed:
+{}
+[2025-05-13T12:14:02.834Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:14:02.835Z] INFO: Connected to SQLite database
+[2025-05-13T12:14:03.633Z] INFO: Client connected:
+{
+  "socketId": "yCRWz5HhUMs7MPAvAAAB"
+}
+[2025-05-13T12:14:03.729Z] INFO: Client connected:
+{
+  "socketId": "TsrhsVgS7XCMzbUSAAAD"
+}
+[2025-05-13T12:14:03.897Z] INFO: Client connected:
+{
+  "socketId": "BB6fd_oOz7-EmrZkAAAF"
+}
+[2025-05-13T12:14:04.086Z] INFO: Client connected:
+{
+  "socketId": "5ZQXCRPrPL00PpAFAAAH"
+}
+[2025-05-13T12:14:13.465Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:14:13.469Z] ERROR: Maintenance failed:
+{}
+[2025-05-13T12:14:13.471Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:14:13.473Z] INFO: Connected to SQLite database
+[2025-05-13T12:14:14.271Z] INFO: Client connected:
+{
+  "socketId": "vA_WRxIoSCueUz4jAAAC"
+}
+[2025-05-13T12:14:14.273Z] INFO: Client connected:
+{
+  "socketId": "-tGd-rzsMW4kOqGzAAAD"
+}
+[2025-05-13T12:14:14.431Z] INFO: Client connected:
+{
+  "socketId": "gZPZImu2_aWHzg6xAAAF"
+}
+[2025-05-13T12:14:14.708Z] INFO: Client connected:
+{
+  "socketId": "LXuMHnSn37X1w3riAAAH"
+}
+[2025-05-13T12:14:27.865Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:14:27.869Z] ERROR: Maintenance failed:
+{}
+[2025-05-13T12:14:27.872Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:14:27.873Z] INFO: Connected to SQLite database
+[2025-05-13T12:14:28.685Z] INFO: Client connected:
+{
+  "socketId": "WtfU41LPxFXxZ_6GAAAD"
+}
+[2025-05-13T12:14:28.687Z] INFO: Client connected:
+{
+  "socketId": "QhZAVOjZjBxoe6fRAAAE"
+}
+[2025-05-13T12:14:28.690Z] INFO: Client connected:
+{
+  "socketId": "lpTFkjD1AbmYyQhiAAAF"
+}
+[2025-05-13T12:14:28.932Z] INFO: Client connected:
+{
+  "socketId": "zlQI_gjTaifiFJQHAAAH"
+}
+[2025-05-13T12:14:38.826Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:14:38.830Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:14:38.832Z] INFO: Connected to SQLite database
+[2025-05-13T12:14:38.833Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:14:38.834Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:14:45.059Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:14:45.063Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:14:45.065Z] INFO: Connected to SQLite database
+[2025-05-13T12:14:45.066Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:14:45.067Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:14:46.159Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:14:46.163Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:14:46.164Z] INFO: Connected to SQLite database
+[2025-05-13T12:14:46.165Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:14:46.166Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:14:46.383Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:14:46.387Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:14:46.389Z] INFO: Connected to SQLite database
+[2025-05-13T12:14:46.390Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:14:46.391Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:14:46.761Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:14:46.765Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:14:46.766Z] INFO: Connected to SQLite database
+[2025-05-13T12:14:46.768Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:14:46.775Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:14:47.244Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:14:47.248Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:14:47.250Z] INFO: Connected to SQLite database
+[2025-05-13T12:14:47.251Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:14:47.253Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:14:57.335Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:14:57.339Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:14:57.340Z] INFO: Connected to SQLite database
+[2025-05-13T12:14:57.342Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:14:57.343Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:14:57.345Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-14-38-835Z.db"
+}
+[2025-05-13T12:16:08.528Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:16:08.532Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:16:08.534Z] INFO: Connected to SQLite database
+[2025-05-13T12:16:08.535Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:16:08.536Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:16:08.538Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-14-45-068Z.db"
+}
+[2025-05-13T12:18:01.973Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:18:01.974Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:18:01.979Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:18:01.979Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:18:01.980Z] INFO: Connected to SQLite database
+[2025-05-13T12:18:01.982Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:18:01.983Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:18:01.988Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:18:01.993Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:18:01.995Z] INFO: Connected to SQLite database
+[2025-05-13T12:18:01.996Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:18:01.997Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:22:23.910Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:22:23.911Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:22:23.913Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:22:23.915Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:22:23.916Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:22:23.917Z] INFO: Connected to SQLite database
+[2025-05-13T12:22:23.918Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:22:23.918Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:22:23.919Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:22:23.927Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-14-46-776Z.db"
+}
+[2025-05-13T12:22:23.928Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-14-46-391Z.db"
+}
+[2025-05-13T12:22:23.929Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-14-46-167Z.db"
+}
+[2025-05-13T12:22:40.246Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:22:40.253Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:22:40.256Z] INFO: Connected to SQLite database
+[2025-05-13T12:22:40.259Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:22:40.264Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:22:40.269Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-14-47-253Z.db"
+}
+[2025-05-13T12:23:14.837Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:14.839Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:14.856Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:23:14.857Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:23:14.858Z] INFO: Connected to SQLite database
+[2025-05-13T12:23:14.861Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:14.860Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:14.874Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:14.889Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:14.890Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:14.890Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:23:14.905Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-14-57-344Z.db"
+}
+[2025-05-13T12:23:14.921Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:14.928Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:23:14.930Z] INFO: Connected to SQLite database
+[2025-05-13T12:23:14.932Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:14.933Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:14.936Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:14.936Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:14.940Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-16-08-537Z.db"
+}
+[2025-05-13T12:23:28.577Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:28.591Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:28.583Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:28.601Z] INFO: Connected to SQLite database
+[2025-05-13T12:23:28.592Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:28.606Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:28.606Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:28.607Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:28.607Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:28.607Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:28.609Z] INFO: Connected to SQLite database
+[2025-05-13T12:23:28.621Z] INFO: Connected to SQLite database
+[2025-05-13T12:23:28.624Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:28.625Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:28.626Z] INFO: Connected to SQLite database
+[2025-05-13T12:23:28.640Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:28.640Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:28.640Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:28.642Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:28.641Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:28.642Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:28.643Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:28.644Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:28.656Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:28.656Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:28.657Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:28.671Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:28.672Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-18-01-984Z.db"
+}
+[2025-05-13T12:23:28.685Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:28.686Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:28.700Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-18-01-998Z.db"
+}
+[2025-05-13T12:23:28.703Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:28.716Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:28.719Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:28.719Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:28.722Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-22-23-920Z.db"
+}
+[2025-05-13T12:23:28.735Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:28.738Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:28.739Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:28.743Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-22-40-265Z.db"
+}
+[2025-05-13T12:23:44.072Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:44.075Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:23:44.078Z] INFO: Connected to SQLite database
+[2025-05-13T12:23:44.081Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:44.083Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:23:44.085Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:44.088Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:44.089Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:23:44.092Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:23:44.093Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-23-14-892Z.db"
+}
+[2025-05-13T12:24:08.299Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:24:08.299Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:24:08.303Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:24:08.338Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:24:08.346Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:08.348Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:24:08.341Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:24:08.353Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:08.365Z] INFO: Connected to SQLite database
+[2025-05-13T12:24:08.378Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:08.381Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:24:08.392Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:24:08.393Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:08.415Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:24:08.420Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:24:08.501Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-23-14-937Z.db"
+}
+[2025-05-13T12:24:21.018Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:24:21.020Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:21.033Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:24:21.046Z] INFO: Connected to SQLite database
+[2025-05-13T12:24:21.049Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:21.050Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:21.061Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:21.171Z] INFO: Client connected:
+{
+  "socketId": "qq3qoiXK4sHBONcmAAAC"
+}
+[2025-05-13T12:24:21.187Z] INFO: Client connected:
+{
+  "socketId": "CMS-yDHNqCSwADaeAAAD"
+}
+[2025-05-13T12:24:22.021Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:24:22.023Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:24:22.025Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:24:22.027Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:24:22.028Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:24:22.034Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-23-28-653Z.db"
+}
+[2025-05-13T12:24:32.458Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:24:32.462Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:24:32.466Z] INFO: Connected to SQLite database
+[2025-05-13T12:24:32.480Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:32.481Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:32.489Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:32.501Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:24:33.467Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:24:33.471Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:24:33.472Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:24:33.475Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:24:33.475Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:24:45.404Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:24:45.407Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:24:45.409Z] INFO: Connected to SQLite database
+[2025-05-13T12:24:45.578Z] INFO: Client connected:
+{
+  "socketId": "UvATwMUKf0etmn8JAAAC"
+}
+[2025-05-13T12:24:45.580Z] INFO: Client connected:
+{
+  "socketId": "l7ZPrIGR_VXUXoEdAAAD"
+}
+[2025-05-13T12:24:46.419Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:24:46.428Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:24:46.429Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:24:46.479Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:24:46.480Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:24:46.484Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-23-28-687Z.db"
+}
+[2025-05-13T12:26:36.734Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:26:36.765Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:26:36.767Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:26:36.770Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:26:36.801Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:26:36.819Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:26:36.845Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:26:37.741Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:26:37.750Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:26:37.754Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:26:37.764Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:26:37.766Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:26:37.769Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-23-28-720Z.db"
+}
+[2025-05-13T12:26:52.343Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:26:52.349Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:26:53.352Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:26:53.363Z] INFO: Database tables found:
+{
+  "tables": [
+    "rooms",
+    "players"
+  ]
+}
+[2025-05-13T12:26:53.367Z] INFO: Orphaned records cleaned up successfully
+[2025-05-13T12:26:53.373Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:26:53.377Z] INFO: Database stats:
+{
+  "totalRooms": 0,
+  "totalPlayers": 0,
+  "activeGames": 0
+}
+[2025-05-13T12:27:45.269Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:27:45.280Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:27:45.312Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:27:45.316Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:27:45.332Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:27:45.333Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:27:45.369Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:27:45.407Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:27:46.271Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:27:46.274Z] INFO: Connected to SQLite database
+[2025-05-13T12:27:46.276Z] ERROR: Database health check failed:
+{}
+[2025-05-13T12:27:46.278Z] ERROR: Database health check failed
+[2025-05-13T12:27:46.280Z] ERROR: Failed to get database stats:
+{}
+[2025-05-13T12:27:46.281Z] ERROR: Error getting database stats:
+{}
+[2025-05-13T12:27:46.285Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-23-28-741Z.db"
+}
+[2025-05-13T12:28:06.790Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:28:06.794Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:28:07.799Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:28:07.817Z] INFO: Connected to SQLite database
+[2025-05-13T12:28:07.822Z] ERROR: Database health check failed:
+{}
+[2025-05-13T12:28:07.827Z] ERROR: Database health check failed
+[2025-05-13T12:28:07.830Z] ERROR: Failed to get database stats:
+{}
+[2025-05-13T12:28:07.833Z] ERROR: Error getting database stats:
+{}
+[2025-05-13T12:28:07.839Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-23-44-090Z.db"
+}
+[2025-05-13T12:29:25.350Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:29:25.355Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:29:25.360Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:25.363Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:25.364Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:25.364Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:25.368Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:25.375Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:25.400Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:26.354Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:29:26.363Z] INFO: Connected to SQLite database
+[2025-05-13T12:29:26.364Z] ERROR: Database health check failed:
+{}
+[2025-05-13T12:29:26.365Z] ERROR: Database health check failed
+[2025-05-13T12:29:26.366Z] ERROR: Failed to get database stats:
+{}
+[2025-05-13T12:29:26.368Z] ERROR: Error getting database stats:
+{}
+[2025-05-13T12:29:27.536Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:27.536Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:29:27.537Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:27.544Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:29:27.545Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:27.545Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:27.541Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:27.555Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:27.561Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:28.546Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:29:28.556Z] INFO: Connected to SQLite database
+[2025-05-13T12:29:28.557Z] ERROR: Database health check failed:
+{}
+[2025-05-13T12:29:28.558Z] ERROR: Database health check failed
+[2025-05-13T12:29:28.559Z] ERROR: Failed to get database stats:
+{}
+[2025-05-13T12:29:28.561Z] ERROR: Error getting database stats:
+{}
+[2025-05-13T12:29:28.567Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-24-08-421Z.db"
+}
+[2025-05-13T12:29:30.894Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:29:30.909Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:29:30.912Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:30.913Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:30.917Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:30.941Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:30.956Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:30.972Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:30.992Z] ERROR: Failed to start server:
+{
+  "code": "EADDRINUSE",
+  "errno": -4091,
+  "syscall": "listen",
+  "address": "::",
+  "port": 3000
+}
+[2025-05-13T12:29:31.909Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:29:31.923Z] INFO: Connected to SQLite database
+[2025-05-13T12:29:31.925Z] ERROR: Database health check failed:
+{}
+[2025-05-13T12:29:31.927Z] ERROR: Database health check failed
+[2025-05-13T12:29:31.928Z] ERROR: Failed to get database stats:
+{}
+[2025-05-13T12:29:31.930Z] ERROR: Error getting database stats:
+{}
+[2025-05-13T12:30:19.475Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:30:19.480Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:30:20.485Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:30:20.496Z] INFO: Connected to SQLite database
+[2025-05-13T12:30:20.500Z] ERROR: Database health check failed:
+{}
+[2025-05-13T12:30:20.502Z] ERROR: Database health check failed
+[2025-05-13T12:30:20.504Z] ERROR: Failed to get database stats:
+{}
+[2025-05-13T12:30:20.505Z] ERROR: Error getting database stats:
+{}
+[2025-05-13T12:30:20.522Z] INFO: Removed old backup:
+{
+  "file": "game-2025-05-13T12-24-33-476Z.db"
+}
+[2025-05-13T12:31:55.157Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:31:55.160Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:31:56.198Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:31:56.217Z] INFO: Connected to SQLite database
+[2025-05-13T12:31:56.218Z] ERROR: Database health check failed:
+{}
+[2025-05-13T12:31:56.219Z] ERROR: Database health check failed
+[2025-05-13T12:31:56.221Z] ERROR: Failed to get database stats:
+{}
+[2025-05-13T12:31:56.222Z] ERROR: Error getting database stats:
+{}
+[2025-05-13T12:31:56.224Z] ERROR: Backup failed:
+{}
+[2025-05-13T12:31:56.225Z] INFO: Maintenance complete
+[2025-05-13T12:33:56.724Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:33:56.727Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:33:57.730Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:33:57.734Z] ERROR: Error checking database health:
+{}
+[2025-05-13T12:33:57.737Z] ERROR: Error getting database stats:
+{}
+[2025-05-13T12:33:57.738Z] ERROR: Backup failed:
+{}
+[2025-05-13T12:33:57.741Z] INFO: Maintenance complete
+[2025-05-13T12:34:13.163Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:34:13.166Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:34:14.165Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:34:14.171Z] ERROR: Error checking database health:
+{}
+[2025-05-13T12:34:14.172Z] ERROR: Error getting database stats:
+{}
+[2025-05-13T12:34:14.173Z] ERROR: Backup failed:
+{}
+[2025-05-13T12:34:14.174Z] INFO: Maintenance complete
+[2025-05-13T12:34:29.588Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:34:29.591Z] ERROR: Initial maintenance failed:
+{}
+[2025-05-13T12:34:30.589Z] INFO: Starting scheduled database maintenance
+[2025-05-13T12:34:30.590Z] ERROR: Error checking database health:
+{}
+[2025-05-13T12:34:30.590Z] ERROR: Error getting database stats:
+{}
+[2025-05-13T12:34:30.591Z] ERROR: Backup failed:
+{}
+[2025-05-13T12:34:30.591Z] INFO: Maintenance complete
+[2025-05-13T12:35:26.780Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:36:37.198Z] INFO: Client connected:
+{
+  "socketId": "h6mdYm3qUWsoMcZvAAAB"
+}
+[2025-05-13T12:36:42.998Z] INFO: Connected to SQLite database
+[2025-05-13T12:36:43.002Z] DEBUG: Creating new room:
+{
+  "roomId": "14RMNX"
+}
+[2025-05-13T12:36:43.016Z] INFO: Room created successfully:
+{
+  "roomId": "14RMNX"
+}
+[2025-05-13T12:36:43.018Z] DEBUG: Adding new player:
+{
+  "socketId": "h6mdYm3qUWsoMcZvAAAB",
+  "username": "jh",
+  "roomId": "14RMNX",
+  "symbol": "X"
+}
+[2025-05-13T12:36:43.032Z] INFO: Player added successfully:
+{
+  "username": "jh",
+  "roomId": "14RMNX"
+}
+[2025-05-13T12:36:52.605Z] INFO: Client connected:
+{
+  "socketId": "xgj0Mmg3D1vM9kAQAAAD"
+}
+[2025-05-13T12:37:07.429Z] DEBUG: Fetching room details:
+{
+  "roomId": "14RMNX"
+}
+[2025-05-13T12:37:07.435Z] DEBUG: Room details retrieved:
+{
+  "roomId": "14RMNX",
+  "playerCount": 1
+}
+[2025-05-13T12:37:07.437Z] DEBUG: Adding new player:
+{
+  "socketId": "xgj0Mmg3D1vM9kAQAAAD",
+  "username": "dsvkjb",
+  "roomId": "14RMNX",
+  "symbol": "O"
+}
+[2025-05-13T12:37:07.469Z] INFO: Player added successfully:
+{
+  "username": "dsvkjb",
+  "roomId": "14RMNX"
+}

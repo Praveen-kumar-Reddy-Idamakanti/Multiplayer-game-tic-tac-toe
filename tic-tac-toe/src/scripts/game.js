@@ -4,10 +4,19 @@ const board = ['', '', '', '', '', '', '', '', ''];
 let currentPlayer = null;
 let mySymbol = null;
 let gameActive = false;
+let currentRoom = null;
+let username = null;
 
 const statusDisplay = document.querySelector('.status');
+const roomInfo = document.querySelector('.room-info');
 const cells = document.querySelectorAll('.cell');
 const restartButton = document.querySelector('.restart');
+const authSection = document.getElementById('auth-section');
+const gameSection = document.getElementById('game-section');
+const usernameInput = document.getElementById('username');
+const roomIdInput = document.getElementById('roomId');
+const joinRoomButton = document.getElementById('joinRoom');
+const createRoomButton = document.getElementById('createRoom');
 
 function handleCellClick(clickedCell, clickedCellIndex) {
     if (!gameActive || board[clickedCellIndex] !== '' || currentPlayer !== mySymbol) return;
@@ -15,7 +24,8 @@ function handleCellClick(clickedCell, clickedCellIndex) {
     makeMove(clickedCellIndex, mySymbol);
     socket.emit('move', {
         index: clickedCellIndex,
-        symbol: mySymbol
+        symbol: mySymbol,
+        room: currentRoom
     });
 }
 
@@ -102,4 +112,42 @@ restartButton.addEventListener('click', resetBoard);
 
 cells.forEach((cell, index) => {
     cell.addEventListener('click', () => handleCellClick(cell, index));
+});
+
+createRoomButton.addEventListener('click', () => {
+    if (!usernameInput.value) {
+        alert('Please enter a username');
+        return;
+    }
+    username = usernameInput.value;
+    socket.emit('create-room', { username });
+});
+
+joinRoomButton.addEventListener('click', () => {
+    if (!usernameInput.value || !roomIdInput.value) {
+        alert('Please enter both username and room ID');
+        return;
+    }
+    username = usernameInput.value;
+    const roomId = roomIdInput.value;
+    socket.emit('join-room', { username, roomId });
+});
+
+socket.on('room-created', ({ roomId }) => {
+    currentRoom = roomId;
+    authSection.style.display = 'none';
+    gameSection.style.display = 'block';
+    roomInfo.textContent = `Room ID: ${roomId}`;
+    statusDisplay.textContent = 'Waiting for opponent to join...';
+});
+
+socket.on('joined-room', ({ roomId }) => {
+    currentRoom = roomId;
+    authSection.style.display = 'none';
+    gameSection.style.display = 'block';
+    roomInfo.textContent = `Room ID: ${roomId}`;
+});
+
+socket.on('invalid-room', () => {
+    alert('Invalid room ID. Please try again.');
 });
