@@ -1318,3 +1318,828 @@
   "username": "dsvkjb",
   "roomId": "14RMNX"
 }
+[2025-05-13T12:41:05.889Z] INFO: Server running at http://localhost:3000
+[2025-05-13T12:41:05.941Z] INFO: Client connected:
+{
+  "socketId": "SFNOOaKi8NMn2OCzAAAC"
+}
+[2025-05-13T12:41:05.944Z] INFO: Client connected:
+{
+  "socketId": "FyxRmIuXRg_UGPoZAAAD"
+}
+[2025-05-13T12:41:08.224Z] INFO: Client connected:
+{
+  "socketId": "_whwzhHYO564SaRSAAAF"
+}
+[2025-05-13T12:41:18.485Z] INFO: Connected to SQLite database
+[2025-05-13T12:41:18.488Z] DEBUG: Creating new room:
+{
+  "roomId": "LDA61Z"
+}
+[2025-05-13T12:41:18.506Z] INFO: Room created successfully:
+{
+  "roomId": "LDA61Z"
+}
+[2025-05-13T12:41:18.508Z] DEBUG: Adding new player:
+{
+  "socketId": "_whwzhHYO564SaRSAAAF",
+  "username": "ramya",
+  "roomId": "LDA61Z",
+  "symbol": "X"
+}
+[2025-05-13T12:41:18.525Z] INFO: Player added successfully:
+{
+  "username": "ramya",
+  "roomId": "LDA61Z"
+}
+[2025-05-13T12:41:27.981Z] INFO: Client connected:
+{
+  "socketId": "3XQinpbB8Wa2m46KAAAH"
+}
+[2025-05-13T12:41:36.096Z] DEBUG: Fetching room details:
+{
+  "roomId": " LDA61Z"
+}
+[2025-05-13T12:41:36.100Z] DEBUG: Room details retrieved:
+{
+  "roomId": " LDA61Z",
+  "playerCount": 0
+}
+[2025-05-13T12:41:40.564Z] DEBUG: Fetching room details:
+{
+  "roomId": "LDA61Z"
+}
+[2025-05-13T12:41:40.566Z] DEBUG: Room details retrieved:
+{
+  "roomId": "LDA61Z",
+  "playerCount": 1
+}
+[2025-05-13T12:41:40.568Z] DEBUG: Adding new player:
+{
+  "socketId": "3XQinpbB8Wa2m46KAAAH",
+  "username": "praveen",
+  "roomId": "LDA61Z",
+  "symbol": "O"
+}
+[2025-05-13T12:41:40.580Z] INFO: Player added successfully:
+{
+  "username": "praveen",
+  "roomId": "LDA61Z"
+}
+[2025-05-13T13:25:53.838Z] INFO: Client disconnected:
+{
+  "socketId": "3XQinpbB8Wa2m46KAAAH"
+}
+[2025-05-13T13:25:53.844Z] DEBUG: Removing player:
+{
+  "socketId": "3XQinpbB8Wa2m46KAAAH"
+}
+[2025-05-13T13:25:53.861Z] INFO: Player removed successfully:
+{
+  "socketId": "3XQinpbB8Wa2m46KAAAH"
+}
+[2025-05-13T13:25:53.867Z] DEBUG: Checking room for cleanup:
+{
+  "roomId": "LDA61Z"
+}
+[2025-05-13T13:25:53.889Z] DEBUG: Room still has players, keeping:
+{
+  "roomId": "LDA61Z",
+  "playerCount": 1
+}
+[2025-05-13T13:25:55.082Z] INFO: Client connected:
+{
+  "socketId": "kj2M-IIL1nbuh0TsAAAJ"
+}
+[2025-05-13T16:03:31.854Z] INFO: Client disconnected:
+{
+  "socketId": "FyxRmIuXRg_UGPoZAAAD"
+}
+[2025-05-13T16:03:31.856Z] DEBUG: Removing player:
+{
+  "socketId": "FyxRmIuXRg_UGPoZAAAD"
+}
+[2025-05-13T16:03:31.857Z] INFO: Player removed successfully:
+{
+  "socketId": "FyxRmIuXRg_UGPoZAAAD"
+}
+[2025-05-13T16:03:33.109Z] INFO: Client connected:
+{
+  "socketId": "cKXr8vOvMRDAQLwlAAAL"
+}
+[2025-05-13T18:33:28.305Z] INFO: Client disconnected:
+{
+  "socketId": "_whwzhHYO564SaRSAAAF"
+}
+[2025-05-13T18:33:28.311Z] DEBUG: Removing player:
+{
+  "socketId": "_whwzhHYO564SaRSAAAF"
+}
+[2025-05-13T18:33:28.421Z] INFO: Player removed successfully:
+{
+  "socketId": "_whwzhHYO564SaRSAAAF"
+}
+[2025-05-13T18:33:28.437Z] DEBUG: Checking room for cleanup:
+{
+  "roomId": "LDA61Z"
+}
+[2025-05-13T18:33:28.514Z] DEBUG: Room is empty, deleting:
+{
+  "roomId": "LDA61Z"
+}
+[2025-05-13T18:33:28.590Z] INFO: Client disconnected:
+{
+  "socketId": "kj2M-IIL1nbuh0TsAAAJ"
+}
+[2025-05-13T18:33:28.591Z] DEBUG: Removing player:
+{
+  "socketId": "kj2M-IIL1nbuh0TsAAAJ"
+}
+[2025-05-13T18:33:28.596Z] INFO: Room deleted successfully:
+{
+  "roomId": "LDA61Z"
+}
+[2025-05-13T18:33:28.598Z] INFO: Player removed successfully:
+{
+  "socketId": "kj2M-IIL1nbuh0TsAAAJ"
+}
+[2025-05-13T18:33:28.605Z] INFO: Client disconnected:
+{
+  "socketId": "SFNOOaKi8NMn2OCzAAAC"
+}
+[2025-05-13T18:33:28.606Z] DEBUG: Removing player:
+{
+  "socketId": "SFNOOaKi8NMn2OCzAAAC"
+}
+[2025-05-13T18:33:28.608Z] INFO: Player removed successfully:
+{
+  "socketId": "SFNOOaKi8NMn2OCzAAAC"
+}
+[2025-05-13T18:33:29.536Z] INFO: Client connected:
+{
+  "socketId": "qPwqYa8gXQPb07IwAAAN"
+}
+[2025-05-13T18:33:30.022Z] INFO: Client connected:
+{
+  "socketId": "ktpSyiKO1bnvdz4UAAAP"
+}
+[2025-05-13T18:33:30.248Z] INFO: Client connected:
+{
+  "socketId": "XBJNBYcE3Yp8UrqvAAAR"
+}
+[2025-05-13T18:41:01.514Z] INFO: Client disconnected:
+{
+  "socketId": "XBJNBYcE3Yp8UrqvAAAR"
+}
+[2025-05-13T18:41:01.613Z] DEBUG: Removing player:
+{
+  "socketId": "XBJNBYcE3Yp8UrqvAAAR"
+}
+[2025-05-13T18:41:01.769Z] INFO: Client disconnected:
+{
+  "socketId": "qPwqYa8gXQPb07IwAAAN"
+}
+[2025-05-13T18:41:01.898Z] DEBUG: Removing player:
+{
+  "socketId": "qPwqYa8gXQPb07IwAAAN"
+}
+[2025-05-13T18:41:02.037Z] INFO: Client disconnected:
+{
+  "socketId": "ktpSyiKO1bnvdz4UAAAP"
+}
+[2025-05-13T18:41:02.220Z] DEBUG: Removing player:
+{
+  "socketId": "ktpSyiKO1bnvdz4UAAAP"
+}
+[2025-05-13T18:41:02.331Z] INFO: Player removed successfully:
+{
+  "socketId": "XBJNBYcE3Yp8UrqvAAAR"
+}
+[2025-05-13T18:41:02.518Z] INFO: Player removed successfully:
+{
+  "socketId": "qPwqYa8gXQPb07IwAAAN"
+}
+[2025-05-13T18:41:02.634Z] INFO: Player removed successfully:
+{
+  "socketId": "ktpSyiKO1bnvdz4UAAAP"
+}
+[2025-05-13T18:41:04.031Z] INFO: Client connected:
+{
+  "socketId": "uVhLPn6OiAZCyPRKAAAV"
+}
+[2025-05-13T18:41:04.034Z] INFO: Client connected:
+{
+  "socketId": "PKVQ3iFPfZtDVVyWAAAW"
+}
+[2025-05-13T18:41:04.039Z] INFO: Client connected:
+{
+  "socketId": "ZEOqcxbQ-R8-ymSTAAAX"
+}
+[2025-05-13T19:45:53.917Z] INFO: Client disconnected:
+{
+  "socketId": "PKVQ3iFPfZtDVVyWAAAW"
+}
+[2025-05-13T19:45:53.918Z] DEBUG: Removing player:
+{
+  "socketId": "PKVQ3iFPfZtDVVyWAAAW"
+}
+[2025-05-13T19:45:53.920Z] INFO: Player removed successfully:
+{
+  "socketId": "PKVQ3iFPfZtDVVyWAAAW"
+}
+[2025-05-13T19:45:53.924Z] INFO: Client disconnected:
+{
+  "socketId": "cKXr8vOvMRDAQLwlAAAL"
+}
+[2025-05-13T19:45:53.925Z] DEBUG: Removing player:
+{
+  "socketId": "cKXr8vOvMRDAQLwlAAAL"
+}
+[2025-05-13T19:45:53.927Z] INFO: Player removed successfully:
+{
+  "socketId": "cKXr8vOvMRDAQLwlAAAL"
+}
+[2025-05-13T19:45:53.932Z] INFO: Client disconnected:
+{
+  "socketId": "uVhLPn6OiAZCyPRKAAAV"
+}
+[2025-05-13T19:45:53.935Z] DEBUG: Removing player:
+{
+  "socketId": "uVhLPn6OiAZCyPRKAAAV"
+}
+[2025-05-13T19:45:53.939Z] INFO: Player removed successfully:
+{
+  "socketId": "uVhLPn6OiAZCyPRKAAAV"
+}
+[2025-05-13T19:45:54.005Z] INFO: Client disconnected:
+{
+  "socketId": "ZEOqcxbQ-R8-ymSTAAAX"
+}
+[2025-05-13T19:45:54.006Z] DEBUG: Removing player:
+{
+  "socketId": "ZEOqcxbQ-R8-ymSTAAAX"
+}
+[2025-05-13T19:45:54.008Z] INFO: Player removed successfully:
+{
+  "socketId": "ZEOqcxbQ-R8-ymSTAAAX"
+}
+[2025-05-13T19:45:54.978Z] INFO: Client connected:
+{
+  "socketId": "zcX_4GZQrglUlWU2AAAZ"
+}
+[2025-05-13T19:45:55.007Z] INFO: Client connected:
+{
+  "socketId": "Ngr9UnBmKXCqsG2EAAAb"
+}
+[2025-05-13T19:45:55.051Z] INFO: Client connected:
+{
+  "socketId": "1YAine3jugDTLzLeAAAd"
+}
+[2025-05-13T19:45:55.386Z] INFO: Client connected:
+{
+  "socketId": "xkvGLP4wxxc0CaX-AAAf"
+}
+[2025-05-14T01:51:35.866Z] INFO: Client disconnected:
+{
+  "socketId": "1YAine3jugDTLzLeAAAd"
+}
+[2025-05-14T01:51:35.869Z] DEBUG: Removing player:
+{
+  "socketId": "1YAine3jugDTLzLeAAAd"
+}
+[2025-05-14T01:51:35.872Z] INFO: Player removed successfully:
+{
+  "socketId": "1YAine3jugDTLzLeAAAd"
+}
+[2025-05-14T01:51:35.954Z] INFO: Client disconnected:
+{
+  "socketId": "zcX_4GZQrglUlWU2AAAZ"
+}
+[2025-05-14T01:51:35.956Z] DEBUG: Removing player:
+{
+  "socketId": "zcX_4GZQrglUlWU2AAAZ"
+}
+[2025-05-14T01:51:35.958Z] INFO: Player removed successfully:
+{
+  "socketId": "zcX_4GZQrglUlWU2AAAZ"
+}
+[2025-05-14T01:51:36.038Z] INFO: Client disconnected:
+{
+  "socketId": "xkvGLP4wxxc0CaX-AAAf"
+}
+[2025-05-14T01:51:36.039Z] DEBUG: Removing player:
+{
+  "socketId": "xkvGLP4wxxc0CaX-AAAf"
+}
+[2025-05-14T01:51:36.041Z] INFO: Player removed successfully:
+{
+  "socketId": "xkvGLP4wxxc0CaX-AAAf"
+}
+[2025-05-14T01:51:37.158Z] INFO: Client connected:
+{
+  "socketId": "W1gLpNqgYJtgcs7GAAAi"
+}
+[2025-05-14T01:51:37.163Z] INFO: Client connected:
+{
+  "socketId": "attgCFAgYgcu1X4pAAAj"
+}
+[2025-05-14T01:51:37.204Z] INFO: Client connected:
+{
+  "socketId": "R_GD3ZRFnrHNY80SAAAl"
+}
+[2025-05-14T05:23:14.442Z] INFO: Client disconnected:
+{
+  "socketId": "R_GD3ZRFnrHNY80SAAAl"
+}
+[2025-05-14T05:23:14.649Z] DEBUG: Removing player:
+{
+  "socketId": "R_GD3ZRFnrHNY80SAAAl"
+}
+[2025-05-14T05:23:15.053Z] INFO: Player removed successfully:
+{
+  "socketId": "R_GD3ZRFnrHNY80SAAAl"
+}
+[2025-05-14T05:23:15.116Z] INFO: Client disconnected:
+{
+  "socketId": "Ngr9UnBmKXCqsG2EAAAb"
+}
+[2025-05-14T05:23:15.175Z] DEBUG: Removing player:
+{
+  "socketId": "Ngr9UnBmKXCqsG2EAAAb"
+}
+[2025-05-14T05:23:15.249Z] INFO: Player removed successfully:
+{
+  "socketId": "Ngr9UnBmKXCqsG2EAAAb"
+}
+[2025-05-14T05:23:16.540Z] INFO: Client connected:
+{
+  "socketId": "D5M3Me5onE2j0K9wAAAo"
+}
+[2025-05-14T05:23:16.541Z] INFO: Client connected:
+{
+  "socketId": "wKWjlKmJWOK4JakwAAAp"
+}
+[2025-05-14T06:52:59.644Z] INFO: Client disconnected:
+{
+  "socketId": "wKWjlKmJWOK4JakwAAAp"
+}
+[2025-05-14T06:52:59.647Z] DEBUG: Removing player:
+{
+  "socketId": "wKWjlKmJWOK4JakwAAAp"
+}
+[2025-05-14T06:52:59.650Z] INFO: Player removed successfully:
+{
+  "socketId": "wKWjlKmJWOK4JakwAAAp"
+}
+[2025-05-14T06:53:00.771Z] INFO: Client connected:
+{
+  "socketId": "y2gSuyWBd8ZQdzBrAAAr"
+}
+[2025-05-14T11:55:20.489Z] INFO: Client disconnected:
+{
+  "socketId": "W1gLpNqgYJtgcs7GAAAi"
+}
+[2025-05-14T11:55:20.490Z] DEBUG: Removing player:
+{
+  "socketId": "W1gLpNqgYJtgcs7GAAAi"
+}
+[2025-05-14T11:55:20.493Z] INFO: Player removed successfully:
+{
+  "socketId": "W1gLpNqgYJtgcs7GAAAi"
+}
+[2025-05-14T11:55:20.509Z] INFO: Client disconnected:
+{
+  "socketId": "y2gSuyWBd8ZQdzBrAAAr"
+}
+[2025-05-14T11:55:20.510Z] DEBUG: Removing player:
+{
+  "socketId": "y2gSuyWBd8ZQdzBrAAAr"
+}
+[2025-05-14T11:55:20.512Z] INFO: Player removed successfully:
+{
+  "socketId": "y2gSuyWBd8ZQdzBrAAAr"
+}
+[2025-05-14T11:55:21.491Z] INFO: Client connected:
+{
+  "socketId": "2QF2_eoe677SeCNSAAAt"
+}
+[2025-05-14T11:55:21.826Z] INFO: Client connected:
+{
+  "socketId": "qudsjQXzFpTFgCFmAAAv"
+}
+[2025-05-14T18:26:49.520Z] INFO: Client disconnected:
+{
+  "socketId": "2QF2_eoe677SeCNSAAAt"
+}
+[2025-05-14T18:26:50.007Z] DEBUG: Removing player:
+{
+  "socketId": "2QF2_eoe677SeCNSAAAt"
+}
+[2025-05-14T18:26:50.010Z] INFO: Client disconnected:
+{
+  "socketId": "qudsjQXzFpTFgCFmAAAv"
+}
+[2025-05-14T18:26:50.015Z] DEBUG: Removing player:
+{
+  "socketId": "qudsjQXzFpTFgCFmAAAv"
+}
+[2025-05-14T18:26:50.223Z] INFO: Player removed successfully:
+{
+  "socketId": "2QF2_eoe677SeCNSAAAt"
+}
+[2025-05-14T18:26:50.270Z] INFO: Client disconnected:
+{
+  "socketId": "D5M3Me5onE2j0K9wAAAo"
+}
+[2025-05-14T18:26:50.369Z] DEBUG: Removing player:
+{
+  "socketId": "D5M3Me5onE2j0K9wAAAo"
+}
+[2025-05-14T18:26:50.393Z] INFO: Player removed successfully:
+{
+  "socketId": "qudsjQXzFpTFgCFmAAAv"
+}
+[2025-05-14T18:26:50.476Z] INFO: Player removed successfully:
+{
+  "socketId": "D5M3Me5onE2j0K9wAAAo"
+}
+[2025-05-14T18:26:52.170Z] INFO: Client connected:
+{
+  "socketId": "zjBNxY6zrwxFDB-DAAAz"
+}
+[2025-05-14T18:26:52.174Z] INFO: Client connected:
+{
+  "socketId": "Ae_-knSXh_jwZaRuAAA0"
+}
+[2025-05-14T18:26:52.188Z] INFO: Client connected:
+{
+  "socketId": "RI6Ixo3DWETosP2lAAA1"
+}
+[2025-05-15T00:41:10.276Z] INFO: Client disconnected:
+{
+  "socketId": "zjBNxY6zrwxFDB-DAAAz"
+}
+[2025-05-15T00:41:10.277Z] DEBUG: Removing player:
+{
+  "socketId": "zjBNxY6zrwxFDB-DAAAz"
+}
+[2025-05-15T00:41:10.279Z] INFO: Player removed successfully:
+{
+  "socketId": "zjBNxY6zrwxFDB-DAAAz"
+}
+[2025-05-15T00:41:11.313Z] INFO: Client connected:
+{
+  "socketId": "L2S7om9yaztfaYu5AAA3"
+}
+[2025-05-15T14:28:37.452Z] INFO: Client disconnected:
+{
+  "socketId": "RI6Ixo3DWETosP2lAAA1"
+}
+[2025-05-15T14:28:37.453Z] DEBUG: Removing player:
+{
+  "socketId": "RI6Ixo3DWETosP2lAAA1"
+}
+[2025-05-15T14:28:37.454Z] INFO: Player removed successfully:
+{
+  "socketId": "RI6Ixo3DWETosP2lAAA1"
+}
+[2025-05-15T14:28:37.487Z] INFO: Client disconnected:
+{
+  "socketId": "Ae_-knSXh_jwZaRuAAA0"
+}
+[2025-05-15T14:28:37.488Z] DEBUG: Removing player:
+{
+  "socketId": "Ae_-knSXh_jwZaRuAAA0"
+}
+[2025-05-15T14:28:37.489Z] INFO: Player removed successfully:
+{
+  "socketId": "Ae_-knSXh_jwZaRuAAA0"
+}
+[2025-05-15T14:28:37.548Z] INFO: Client disconnected:
+{
+  "socketId": "attgCFAgYgcu1X4pAAAj"
+}
+[2025-05-15T14:28:37.549Z] DEBUG: Removing player:
+{
+  "socketId": "attgCFAgYgcu1X4pAAAj"
+}
+[2025-05-15T14:28:37.550Z] INFO: Player removed successfully:
+{
+  "socketId": "attgCFAgYgcu1X4pAAAj"
+}
+[2025-05-15T14:28:37.577Z] INFO: Client disconnected:
+{
+  "socketId": "L2S7om9yaztfaYu5AAA3"
+}
+[2025-05-15T14:28:37.578Z] DEBUG: Removing player:
+{
+  "socketId": "L2S7om9yaztfaYu5AAA3"
+}
+[2025-05-15T14:28:37.579Z] INFO: Player removed successfully:
+{
+  "socketId": "L2S7om9yaztfaYu5AAA3"
+}
+[2025-05-16T06:14:47.368Z] INFO: Server running at http://localhost:3000
+[2025-05-16T06:14:49.806Z] INFO: Client connected:
+{
+  "socketId": "8yYz855cvr5Aec25AAAB"
+}
+[2025-05-16T06:15:04.439Z] INFO: Client connected:
+{
+  "socketId": "-wHosqfCxYf-TA71AAAD"
+}
+[2025-05-16T06:15:08.579Z] INFO: Client connected:
+{
+  "socketId": "7w-W7AYnCbpU7rXJAAAF"
+}
+[2025-05-16T06:15:10.432Z] INFO: Client connected:
+{
+  "socketId": "73Qsx-zfSoCEJdbgAAAH"
+}
+[2025-05-16T06:15:12.217Z] INFO: Client connected:
+{
+  "socketId": "OcFP_piUouzaog7aAAAJ"
+}
+[2025-05-16T06:15:13.589Z] INFO: Client connected:
+{
+  "socketId": "QAp1w6NTCQMXCYndAAAL"
+}
+[2025-05-16T06:15:15.939Z] INFO: Client connected:
+{
+  "socketId": "qXmYW15aarqHYAggAAAN"
+}
+[2025-05-16T06:15:17.445Z] INFO: Client connected:
+{
+  "socketId": "tp3rjh38noITAloVAAAP"
+}
+[2025-05-16T06:15:19.535Z] INFO: Client connected:
+{
+  "socketId": "1xieRLt6UZ7epoSgAAAR"
+}
+[2025-05-16T06:15:20.930Z] INFO: Client connected:
+{
+  "socketId": "XcnCCJiN5f8vDWW-AAAT"
+}
+[2025-05-16T06:15:22.603Z] INFO: Client connected:
+{
+  "socketId": "x9W2fb-32F-l6K6LAAAV"
+}
+[2025-05-16T06:15:24.152Z] INFO: Client connected:
+{
+  "socketId": "IsFbuhFba7xVbW_KAAAX"
+}
+[2025-05-16T06:15:25.401Z] INFO: Client connected:
+{
+  "socketId": "30JqqTS5KJiUWzv2AAAZ"
+}
+[2025-05-16T06:15:26.480Z] INFO: Client connected:
+{
+  "socketId": "4AIAo-rkHOvUxCzkAAAb"
+}
+[2025-05-16T06:15:28.411Z] INFO: Client connected:
+{
+  "socketId": "VV9cvst4nb3wFvxwAAAd"
+}
+[2025-05-16T06:15:36.422Z] INFO: Connected to SQLite database
+[2025-05-16T06:15:36.426Z] DEBUG: Creating new room:
+{
+  "roomId": "5UJP9K"
+}
+[2025-05-16T06:15:36.441Z] INFO: Room created successfully:
+{
+  "roomId": "5UJP9K"
+}
+[2025-05-16T06:15:36.444Z] DEBUG: Adding new player:
+{
+  "socketId": "8yYz855cvr5Aec25AAAB",
+  "username": "mm",
+  "roomId": "5UJP9K",
+  "symbol": "X"
+}
+[2025-05-16T06:15:36.460Z] INFO: Player added successfully:
+{
+  "username": "mm",
+  "roomId": "5UJP9K"
+}
+[2025-05-16T06:15:45.545Z] DEBUG: Fetching room details:
+{
+  "roomId": "5UJP9K"
+}
+[2025-05-16T06:15:45.556Z] DEBUG: Room details retrieved:
+{
+  "roomId": "5UJP9K",
+  "playerCount": 1
+}
+[2025-05-16T06:15:45.563Z] DEBUG: Adding new player:
+{
+  "socketId": "x9W2fb-32F-l6K6LAAAV",
+  "username": "sn",
+  "roomId": "5UJP9K",
+  "symbol": "O"
+}
+[2025-05-16T06:15:45.581Z] INFO: Player added successfully:
+{
+  "username": "sn",
+  "roomId": "5UJP9K"
+}
+[2025-05-16T06:16:23.223Z] INFO: Client disconnected:
+{
+  "socketId": "OcFP_piUouzaog7aAAAJ"
+}
+[2025-05-16T06:16:23.224Z] DEBUG: Removing player:
+{
+  "socketId": "OcFP_piUouzaog7aAAAJ"
+}
+[2025-05-16T06:16:23.225Z] INFO: Player removed successfully:
+{
+  "socketId": "OcFP_piUouzaog7aAAAJ"
+}
+[2025-05-16T06:16:23.741Z] INFO: Client disconnected:
+{
+  "socketId": "1xieRLt6UZ7epoSgAAAR"
+}
+[2025-05-16T06:16:23.742Z] DEBUG: Removing player:
+{
+  "socketId": "1xieRLt6UZ7epoSgAAAR"
+}
+[2025-05-16T06:16:23.743Z] INFO: Player removed successfully:
+{
+  "socketId": "1xieRLt6UZ7epoSgAAAR"
+}
+[2025-05-16T06:16:23.753Z] INFO: Client disconnected:
+{
+  "socketId": "QAp1w6NTCQMXCYndAAAL"
+}
+[2025-05-16T06:16:23.758Z] DEBUG: Removing player:
+{
+  "socketId": "QAp1w6NTCQMXCYndAAAL"
+}
+[2025-05-16T06:16:23.761Z] INFO: Player removed successfully:
+{
+  "socketId": "QAp1w6NTCQMXCYndAAAL"
+}
+[2025-05-16T06:16:23.788Z] INFO: Client disconnected:
+{
+  "socketId": "qXmYW15aarqHYAggAAAN"
+}
+[2025-05-16T06:16:23.789Z] DEBUG: Removing player:
+{
+  "socketId": "qXmYW15aarqHYAggAAAN"
+}
+[2025-05-16T06:16:23.790Z] INFO: Player removed successfully:
+{
+  "socketId": "qXmYW15aarqHYAggAAAN"
+}
+[2025-05-16T06:16:23.794Z] INFO: Client disconnected:
+{
+  "socketId": "XcnCCJiN5f8vDWW-AAAT"
+}
+[2025-05-16T06:16:23.794Z] DEBUG: Removing player:
+{
+  "socketId": "XcnCCJiN5f8vDWW-AAAT"
+}
+[2025-05-16T06:16:23.795Z] INFO: Player removed successfully:
+{
+  "socketId": "XcnCCJiN5f8vDWW-AAAT"
+}
+[2025-05-16T06:16:23.807Z] INFO: Client disconnected:
+{
+  "socketId": "tp3rjh38noITAloVAAAP"
+}
+[2025-05-16T06:16:23.808Z] DEBUG: Removing player:
+{
+  "socketId": "tp3rjh38noITAloVAAAP"
+}
+[2025-05-16T06:16:23.810Z] INFO: Player removed successfully:
+{
+  "socketId": "tp3rjh38noITAloVAAAP"
+}
+[2025-05-16T06:16:23.908Z] INFO: Client disconnected:
+{
+  "socketId": "4AIAo-rkHOvUxCzkAAAb"
+}
+[2025-05-16T06:16:23.909Z] DEBUG: Removing player:
+{
+  "socketId": "4AIAo-rkHOvUxCzkAAAb"
+}
+[2025-05-16T06:16:23.910Z] INFO: Player removed successfully:
+{
+  "socketId": "4AIAo-rkHOvUxCzkAAAb"
+}
+[2025-05-16T06:16:23.943Z] INFO: Client disconnected:
+{
+  "socketId": "VV9cvst4nb3wFvxwAAAd"
+}
+[2025-05-16T06:16:23.944Z] DEBUG: Removing player:
+{
+  "socketId": "VV9cvst4nb3wFvxwAAAd"
+}
+[2025-05-16T06:16:23.945Z] INFO: Client disconnected:
+{
+  "socketId": "x9W2fb-32F-l6K6LAAAV"
+}
+[2025-05-16T06:16:23.946Z] DEBUG: Removing player:
+{
+  "socketId": "x9W2fb-32F-l6K6LAAAV"
+}
+[2025-05-16T06:16:23.947Z] INFO: Player removed successfully:
+{
+  "socketId": "VV9cvst4nb3wFvxwAAAd"
+}
+[2025-05-16T06:16:23.952Z] INFO: Client disconnected:
+{
+  "socketId": "IsFbuhFba7xVbW_KAAAX"
+}
+[2025-05-16T06:16:23.953Z] DEBUG: Removing player:
+{
+  "socketId": "IsFbuhFba7xVbW_KAAAX"
+}
+[2025-05-16T06:16:23.956Z] INFO: Player removed successfully:
+{
+  "socketId": "x9W2fb-32F-l6K6LAAAV"
+}
+[2025-05-16T06:16:23.957Z] DEBUG: Checking room for cleanup:
+{
+  "roomId": "5UJP9K"
+}
+[2025-05-16T06:16:23.959Z] INFO: Player removed successfully:
+{
+  "socketId": "IsFbuhFba7xVbW_KAAAX"
+}
+[2025-05-16T06:16:23.959Z] DEBUG: Room still has players, keeping:
+{
+  "roomId": "5UJP9K",
+  "playerCount": 1
+}
+[2025-05-16T06:16:23.988Z] INFO: Client disconnected:
+{
+  "socketId": "30JqqTS5KJiUWzv2AAAZ"
+}
+[2025-05-16T06:16:23.989Z] DEBUG: Removing player:
+{
+  "socketId": "30JqqTS5KJiUWzv2AAAZ"
+}
+[2025-05-16T06:16:23.989Z] INFO: Player removed successfully:
+{
+  "socketId": "30JqqTS5KJiUWzv2AAAZ"
+}
+[2025-05-16T06:16:24.085Z] INFO: Client disconnected:
+{
+  "socketId": "73Qsx-zfSoCEJdbgAAAH"
+}
+[2025-05-16T06:16:24.086Z] DEBUG: Removing player:
+{
+  "socketId": "73Qsx-zfSoCEJdbgAAAH"
+}
+[2025-05-16T06:16:24.087Z] INFO: Player removed successfully:
+{
+  "socketId": "73Qsx-zfSoCEJdbgAAAH"
+}
+[2025-05-16T06:16:24.678Z] INFO: Client disconnected:
+{
+  "socketId": "7w-W7AYnCbpU7rXJAAAF"
+}
+[2025-05-16T06:16:24.679Z] DEBUG: Removing player:
+{
+  "socketId": "7w-W7AYnCbpU7rXJAAAF"
+}
+[2025-05-16T06:16:24.681Z] INFO: Player removed successfully:
+{
+  "socketId": "7w-W7AYnCbpU7rXJAAAF"
+}
+[2025-05-16T06:16:25.077Z] INFO: Client disconnected:
+{
+  "socketId": "-wHosqfCxYf-TA71AAAD"
+}
+[2025-05-16T06:16:25.078Z] DEBUG: Removing player:
+{
+  "socketId": "-wHosqfCxYf-TA71AAAD"
+}
+[2025-05-16T06:16:25.080Z] INFO: Player removed successfully:
+{
+  "socketId": "-wHosqfCxYf-TA71AAAD"
+}
+[2025-05-16T06:16:26.109Z] INFO: Client disconnected:
+{
+  "socketId": "8yYz855cvr5Aec25AAAB"
+}
+[2025-05-16T06:16:26.110Z] DEBUG: Removing player:
+{
+  "socketId": "8yYz855cvr5Aec25AAAB"
+}
+[2025-05-16T06:16:26.120Z] INFO: Player removed successfully:
+{
+  "socketId": "8yYz855cvr5Aec25AAAB"
+}
+[2025-05-16T06:16:26.121Z] DEBUG: Checking room for cleanup:
+{
+  "roomId": "5UJP9K"
+}
+[2025-05-16T06:16:26.123Z] DEBUG: Room is empty, deleting:
+{
+  "roomId": "5UJP9K"
+}
+[2025-05-16T06:16:26.131Z] INFO: Room deleted successfully:
+{
+  "roomId": "5UJP9K"
+}
