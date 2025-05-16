@@ -2,8 +2,6 @@
 
 A modern, real-time multiplayer Tic Tac Toe game built with Node.js, Socket.IO, and SQLite. Play with friends in private game rooms with a beautiful, responsive interface.
 
-![Modern UI](https://i.imgur.com/example.png)
-
 ## 🌟 Features
 
 - **Real-time Multiplayer**: Instant game updates using WebSocket technology
