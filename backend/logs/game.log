@@ -2143,3 +2143,8 @@
 {
   "roomId": "5UJP9K"
 }
+[2025-05-16T17:09:16.000Z] INFO: Server running at http://localhost:3000
+[2025-05-16T17:09:19.291Z] INFO: Client connected:
+{
+  "socketId": "MuZKgv7gN6Hdn52wAAAB"
+}
