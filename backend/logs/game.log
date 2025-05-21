@@ -2148,3 +2148,220 @@
 {
   "socketId": "MuZKgv7gN6Hdn52wAAAB"
 }
+[2025-05-21T17:53:51.361Z] INFO: Server running at http://localhost:3000
+[2025-05-21T17:53:54.897Z] INFO: Client connected:
+{
+  "socketId": "z5ySkHFaRJxPxlXAAAAB"
+}
+[2025-05-21T17:54:11.648Z] INFO: Connected to SQLite database
+[2025-05-21T17:54:11.664Z] DEBUG: Creating new room:
+{
+  "roomId": "UW6RWX"
+}
+[2025-05-21T17:54:11.704Z] INFO: Room created successfully:
+{
+  "roomId": "UW6RWX"
+}
+[2025-05-21T17:54:11.723Z] DEBUG: Adding new player:
+{
+  "socketId": "z5ySkHFaRJxPxlXAAAAB",
+  "username": "poorna",
+  "roomId": "UW6RWX",
+  "symbol": "X"
+}
+[2025-05-21T17:54:11.879Z] INFO: Player added successfully:
+{
+  "username": "poorna",
+  "roomId": "UW6RWX"
+}
+[2025-05-21T17:54:26.578Z] INFO: Client connected:
+{
+  "socketId": "Loyv9lmUE0SwHBpIAAAD"
+}
+[2025-05-21T17:54:38.400Z] DEBUG: Fetching room details:
+{
+  "roomId": "UW6RWX"
+}
+[2025-05-21T17:54:38.410Z] DEBUG: Room details retrieved:
+{
+  "roomId": "UW6RWX",
+  "playerCount": 1
+}
+[2025-05-21T17:54:38.426Z] DEBUG: Adding new player:
+{
+  "socketId": "Loyv9lmUE0SwHBpIAAAD",
+  "username": "prasanna",
+  "roomId": "UW6RWX",
+  "symbol": "O"
+}
+[2025-05-21T17:54:38.482Z] INFO: Player added successfully:
+{
+  "username": "prasanna",
+  "roomId": "UW6RWX"
+}
+[2025-05-21T17:54:59.209Z] INFO: Client disconnected:
+{
+  "socketId": "Loyv9lmUE0SwHBpIAAAD"
+}
+[2025-05-21T17:54:59.222Z] DEBUG: Removing player:
+{
+  "socketId": "Loyv9lmUE0SwHBpIAAAD"
+}
+[2025-05-21T17:54:59.394Z] INFO: Player removed successfully:
+{
+  "socketId": "Loyv9lmUE0SwHBpIAAAD"
+}
+[2025-05-21T17:54:59.396Z] DEBUG: Checking room for cleanup:
+{
+  "roomId": "UW6RWX"
+}
+[2025-05-21T17:54:59.608Z] DEBUG: Room still has players, keeping:
+{
+  "roomId": "UW6RWX",
+  "playerCount": 1
+}
+[2025-05-21T17:54:59.646Z] INFO: Client connected:
+{
+  "socketId": "BEX2I5Z1UDZxhr8iAAAF"
+}
+[2025-05-21T17:55:01.525Z] INFO: Client disconnected:
+{
+  "socketId": "z5ySkHFaRJxPxlXAAAAB"
+}
+[2025-05-21T17:55:01.528Z] DEBUG: Removing player:
+{
+  "socketId": "z5ySkHFaRJxPxlXAAAAB"
+}
+[2025-05-21T17:55:01.715Z] INFO: Player removed successfully:
+{
+  "socketId": "z5ySkHFaRJxPxlXAAAAB"
+}
+[2025-05-21T17:55:01.725Z] DEBUG: Checking room for cleanup:
+{
+  "roomId": "UW6RWX"
+}
+[2025-05-21T17:55:01.875Z] DEBUG: Room is empty, deleting:
+{
+  "roomId": "UW6RWX"
+}
+[2025-05-21T17:55:01.895Z] INFO: Room deleted successfully:
+{
+  "roomId": "UW6RWX"
+}
+[2025-05-21T17:58:02.725Z] INFO: Server running at http://localhost:3000
+[2025-05-21T17:58:02.834Z] INFO: Client connected:
+{
+  "socketId": "mIZ7cOe4WPcV6W7AAAAB"
+}
+[2025-05-21T17:58:05.409Z] INFO: Client connected:
+{
+  "socketId": "YUeL9q44t56Y5rVgAAAD"
+}
+[2025-05-21T17:59:26.911Z] INFO: Server running at http://localhost:3000
+[2025-05-21T17:59:28.347Z] INFO: Client connected:
+{
+  "socketId": "MONdIuC6PaGcHHZxAAAC"
+}
+[2025-05-21T18:00:51.580Z] INFO: Server running at http://localhost:3000
+[2025-05-21T18:00:54.785Z] INFO: Client connected:
+{
+  "socketId": "SM39PpugCVhQ-h9oAAAB"
+}
+[2025-05-21T18:00:57.066Z] INFO: Client disconnected:
+{
+  "socketId": "SM39PpugCVhQ-h9oAAAB"
+}
+[2025-05-21T18:00:57.069Z] INFO: Connected to SQLite database
+[2025-05-21T18:00:57.070Z] DEBUG: Removing player:
+{
+  "socketId": "SM39PpugCVhQ-h9oAAAB"
+}
+[2025-05-21T18:00:57.073Z] INFO: Player removed successfully:
+{
+  "socketId": "SM39PpugCVhQ-h9oAAAB"
+}
+[2025-05-21T18:00:57.116Z] INFO: Client connected:
+{
+  "socketId": "H4mbFFqrMOYIHcoUAAAD"
+}
+[2025-05-21T18:01:20.422Z] INFO: Client disconnected:
+{
+  "socketId": "H4mbFFqrMOYIHcoUAAAD"
+}
+[2025-05-21T18:01:20.423Z] DEBUG: Removing player:
+{
+  "socketId": "H4mbFFqrMOYIHcoUAAAD"
+}
+[2025-05-21T18:01:20.424Z] INFO: Player removed successfully:
+{
+  "socketId": "H4mbFFqrMOYIHcoUAAAD"
+}
+[2025-05-21T18:01:20.468Z] INFO: Client connected:
+{
+  "socketId": "5X9P2XToo1EapuvBAAAF"
+}
+[2025-05-21T18:03:12.954Z] INFO: Server running at http://localhost:3000
+[2025-05-21T18:03:13.003Z] INFO: Client connected:
+{
+  "socketId": "mffQREl0fMhhumyoAAAB"
+}
+[2025-05-21T18:03:15.916Z] INFO: Client disconnected:
+{
+  "socketId": "mffQREl0fMhhumyoAAAB"
+}
+[2025-05-21T18:03:15.929Z] INFO: Connected to SQLite database
+[2025-05-21T18:03:15.931Z] DEBUG: Removing player:
+{
+  "socketId": "mffQREl0fMhhumyoAAAB"
+}
+[2025-05-21T18:03:15.939Z] INFO: Player removed successfully:
+{
+  "socketId": "mffQREl0fMhhumyoAAAB"
+}
+[2025-05-21T18:03:15.988Z] INFO: Client connected:
+{
+  "socketId": "ltQdXguHLNAzDVCmAAAD"
+}
+[2025-05-21T18:04:35.775Z] INFO: Server running at http://localhost:3000
+[2025-05-21T18:04:37.769Z] INFO: Client connected:
+{
+  "socketId": "ButMr24QsWxUQMeCAAAB"
+}
+[2025-05-21T18:08:04.042Z] INFO: Server running at http://localhost:3000
+[2025-05-21T18:08:05.250Z] INFO: Client connected:
+{
+  "socketId": "dg2LzOU0L1wS1NQ6AAAB"
+}
+[2025-05-21T18:08:07.416Z] INFO: Client disconnected:
+{
+  "socketId": "dg2LzOU0L1wS1NQ6AAAB"
+}
+[2025-05-21T18:08:07.422Z] INFO: Connected to SQLite database
+[2025-05-21T18:08:07.428Z] DEBUG: Removing player:
+{
+  "socketId": "dg2LzOU0L1wS1NQ6AAAB"
+}
+[2025-05-21T18:08:07.437Z] INFO: Player removed successfully:
+{
+  "socketId": "dg2LzOU0L1wS1NQ6AAAB"
+}
+[2025-05-21T18:08:07.476Z] INFO: Client connected:
+{
+  "socketId": "7VX8spi6Igntw0iNAAAD"
+}
+[2025-05-21T18:08:17.745Z] INFO: Client disconnected:
+{
+  "socketId": "7VX8spi6Igntw0iNAAAD"
+}
+[2025-05-21T18:08:17.755Z] DEBUG: Removing player:
+{
+  "socketId": "7VX8spi6Igntw0iNAAAD"
+}
+[2025-05-21T18:08:17.793Z] INFO: Player removed successfully:
+{
+  "socketId": "7VX8spi6Igntw0iNAAAD"
+}
+[2025-05-21T18:08:17.992Z] INFO: Client connected:
+{
+  "socketId": "p1R5d6TU_IQnPnyvAAAF"
+}
