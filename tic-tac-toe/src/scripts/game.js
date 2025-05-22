@@ -195,11 +195,22 @@ socket.on('room-created', ({ roomId }) => {
     statusDisplay.textContent = 'Waiting for opponent to join...';
 });
 
-socket.on('joined-room', ({ roomId }) => {
+socket.on('joined-room', ({ roomId, gameState }) => {
     currentRoom = roomId;
     authSection.style.display = 'none';
     gameSection.style.display = 'block';
     roomInfo.textContent = `Room ID: ${roomId}`;
+
+    // If there's an existing game state, load it
+    if (gameState) {
+        board.splice(0, board.length, ...gameState);
+        cells.forEach((cell, index) => {
+            cell.textContent = gameState[index];
+            if (gameState[index]) {
+                cell.classList.add(gameState[index].toLowerCase());
+            }
+        });
+    }
 });
 
 socket.on('invalid-room', () => {

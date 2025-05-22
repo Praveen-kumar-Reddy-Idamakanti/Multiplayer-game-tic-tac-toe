@@ -27,12 +27,14 @@ function connectToDatabase() {
 async function initializeTables(database) {
     return new Promise((resolve, reject) => {
         database.serialize(() => {
-            try {
-                // Create rooms table
+            try {                // Create rooms table
                 database.run(`
                     CREATE TABLE IF NOT EXISTS rooms (
                         room_id TEXT PRIMARY KEY,
-                        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+                        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                        game_state TEXT DEFAULT '["","","","","","","","",""]',
+                        is_active BOOLEAN DEFAULT 1,
+                        winner TEXT DEFAULT NULL
                     )
                 `);
 
@@ -168,6 +170,82 @@ const dbOperations = {
                     } else {
                         logger.debug('Room still has players, keeping:', { roomId, playerCount: row.count });
                         resolve(false);
+                    }
+                }
+            );
+        });
+    },
+
+    // Update game state in database
+    async updateGameState(roomId, gameState) {
+        try {
+            const db = await connectToDatabase();
+            logger.debug('Updating game state:', { roomId, gameState });
+            
+            return new Promise((resolve, reject) => {
+                const stateJson = JSON.stringify(gameState);
+                db.run(
+                    'UPDATE rooms SET game_state = ? WHERE room_id = ?',
+                    [stateJson, roomId],
+                    (err) => {
+                        if (err) {
+                            logger.error('Failed to update game state:', err);
+                            reject(err);
+                        } else {
+                            logger.info('Game state updated successfully');
+                            resolve();
+                        }
+                    }
+                );
+            });
+        } catch (error) {
+            logger.error('Database error in updateGameState:', error);
+            throw error;
+        }
+    },
+
+    // Get current game state from database
+    async getGameState(roomId) {
+        try {
+            const db = await connectToDatabase();
+            logger.debug('Getting game state for room:', roomId);
+            
+            return new Promise((resolve, reject) => {
+                db.get(
+                    'SELECT game_state FROM rooms WHERE room_id = ?',
+                    [roomId],
+                    (err, row) => {
+                        if (err) {
+                            logger.error('Failed to get game state:', err);
+                            reject(err);
+                        } else {
+                            const gameState = row?.game_state ? JSON.parse(row.game_state) : null;
+                            logger.debug('Retrieved game state:', gameState);
+                            resolve(gameState);
+                        }
+                    }
+                );
+            });
+        } catch (error) {
+            logger.error('Database error in getGameState:', error);
+            throw error;
+        }
+    },
+
+    // Update winner
+    async updateWinner(roomId, winner) {
+        const db = await connectToDatabase();
+        return new Promise((resolve, reject) => {
+            db.run(
+                'UPDATE rooms SET winner = ?, is_active = 0 WHERE room_id = ?',
+                [winner, roomId],
+                (err) => {
+                    if (err) {
+                        logger.error(`Failed to update winner for room ${roomId}:`, err);
+                        reject(err);
+                    } else {
+                        logger.debug('Winner updated:', { roomId, winner });
+                        resolve();
                     }
                 }
             );

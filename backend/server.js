@@ -33,8 +33,10 @@ app.get('/stats', async (req, res) => {    try {
     }
 });
 
+// In-memory cache for active games
 const rooms = new Map(); // Store room information
 const usernames = new Map(); // Store username information
+const initialGameState = ['', '', '', '', '', '', '', '', ''];
 
 function generateRoomId() {
     return Math.random().toString(36).substring(2, 8).toUpperCase();
@@ -44,20 +46,27 @@ io.on('connection', (socket) => {
     logger.info('Client connected:', { socketId: socket.id });socket.on('create-room', async ({ username }) => {
         try {
             const roomId = generateRoomId();
+            const initialBoard = ['', '', '', '', '', '', '', '', ''];
+            
+            // Create room in database
             await db.createRoom(roomId);
             await db.addPlayer(socket.id, username, roomId, 'X');
+            await db.updateGameState(roomId, initialBoard);
             
+            // Set up in-memory state
             rooms.set(roomId, {
                 players: [{ id: socket.id, username, symbol: 'X' }],
-                board: ['', '', '', '', '', '', '', '', '']
+                board: [...initialBoard]
             });
             
             socket.join(roomId);
             usernames.set(socket.id, username);
             socket.emit('room-created', { roomId });
             socket.emit('player-assigned', 'X');
+            
+            logger.info('Room created with initial state', { roomId, username });
         } catch (error) {
-            console.error('Error creating room:', error);
+            logger.error('Error creating room:', error);
             socket.emit('error', { message: 'Failed to create room' });
         }
     });    socket.on('join-room', async ({ username, roomId }) => {
@@ -75,11 +84,14 @@ io.on('connection', (socket) => {
                 return;
             }
 
+            // Get current game state from database
+            const gameState = await db.getGameState(roomId);
+            
             await db.addPlayer(socket.id, username, roomId, 'O');
             
             const room = rooms.get(roomId) || {
                 players: [],
-                board: ['', '', '', '', '', '', '', '', '']
+                board: gameState || [...initialGameState]
             };
             room.players.push({ id: socket.id, username, symbol: 'O' });
             rooms.set(roomId, room);
@@ -87,27 +99,57 @@ io.on('connection', (socket) => {
             socket.join(roomId);
             usernames.set(socket.id, username);
             
-            socket.emit('joined-room', { roomId });
+            socket.emit('joined-room', { 
+                roomId,
+                gameState: room.board // Send current game state to new player
+            });
             socket.emit('player-assigned', 'O');
             io.to(roomId).emit('start-game');
         } catch (error) {
             console.error('Error joining room:', error);
             socket.emit('error', { message: 'Failed to join room' });
         }
-    });
-
-    socket.on('move', ({ index, symbol, room }) => {
-        if (rooms.has(room)) {
-            socket.to(room).emit('move', { index, symbol });
+    });    socket.on('move', async ({ index, symbol, room }) => {
+        try {
+            if (rooms.has(room)) {
+                const roomData = rooms.get(room);
+                
+                // Update in-memory board state
+                roomData.board[index] = symbol;
+                
+                // Update database
+                await db.updateGameState(room, roomData.board);
+                logger.debug('Move saved to database', { room, index, symbol });
+                
+                // Notify other players
+                socket.to(room).emit('move', { index, symbol });
+            }
+        } catch (error) {
+            logger.error('Failed to process move:', error);
+            socket.emit('error', { message: 'Failed to save game state' });
         }
-    });
-
-    socket.on('restart-request', () => {
-        const roomId = Array.from(socket.rooms)[1]; // Get the room ID
-        if (roomId && rooms.has(roomId)) {
-            io.to(roomId).emit('start-game');
+    });    socket.on('restart-request', async () => {
+        try {
+            const roomId = Array.from(socket.rooms)[1];
+            if (roomId && rooms.has(roomId)) {
+                const roomData = rooms.get(roomId);
+                const initialBoard = ['', '', '', '', '', '', '', '', ''];
+                
+                // Update in-memory state
+                roomData.board = [...initialBoard];
+                
+                // Update database
+                await db.updateGameState(roomId, initialBoard);
+                logger.debug('Game reset in database', { roomId });
+                
+                // Notify players
+                io.to(roomId).emit('start-game');
+            }
+        } catch (error) {
+            logger.error('Failed to reset game:', error);
+            socket.emit('error', { message: 'Failed to reset game' });
         }
-    });    socket.on('disconnect', async () => {
+    });socket.on('disconnect', async () => {
         try {
             logger.info('Client disconnected:', { socketId: socket.id });
             
